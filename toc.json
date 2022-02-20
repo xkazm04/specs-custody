@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Getting started",
+      "uri": "docs/Introduction.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
+      "type": "item",
+      "title": "Custody",
+      "uri": "reference/Custody.yaml"
+    },
+        {
+      "type": "divider",
+      "title": "How to articles"
+    },
+        {
+      "type": "item",
+      "title": "How to securely store private keys",
+      "uri": "docs/store-keys-kms.md"
+    }
+  ]
+}
