@@ -241,9 +241,14 @@ paths:
   '/v3/security/address/{address}':
     get:
       description: |
-        <h4>1 credit per API call.</h4><br/>
+        <h4>1 credit per API call.</h4><br/>        
         Use this method to check if a certain blockchain address is malicious. A malicious address might contain assets from the dark web, be connected to scam projects or contain stolen funds.<br/>
-            <ul>
+            <ul>Supported Chains:
+              <li>  ETH</li>
+              <li>  BTC</li>
+              <li>  LTC</li>
+            </ul>
+            <ul>How to use:
               <li> Pass account <b>address</b> into <b>path</b>
               <li> <b>Response</b> valid/invalid to indicate address status </li>
             </ul>
