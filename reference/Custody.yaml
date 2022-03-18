@@ -3,7 +3,7 @@ info:
   description: 'Private keys and mnemonic phrases are the only ways of unlocking wallets with crypto assets. If you lose or expose your keys, you will probably lose your assets forever. With the Tatum Key Management System you can securely store private keys and mnemonics locally on your server and use them to sign any pending transactions that are periodically pulled via the Tatum API to your server.'
   contact: {}
   title: Security & KMS
-  version: 3.9.3
+  version: 3.9.4
   x-logo:
     url: 'https://tatum.io/images/logo.svg'
     altText: Tatum
@@ -54,6 +54,7 @@ paths:
               - XDC
               - EGLD
               - KLAY
+              - LUNA
               - SOL
       responses:
         '200':
@@ -1391,6 +1392,18 @@ components:
             - LTC
             - DOGE
             - VET
+            - BSC
+            - ADA
+            - MATIC
+            - CELO
+            - FLOW
+            - TRON
+            - ONE
+            - XDC
+            - EGLD
+            - KLAY
+            - LUNA
+            - SOL
         hashes:
           type: array
           description: 'List of the signature Ids to be used to sign transaction. Those hashes should be in order of signing for the BTC, LTC or BCH blockchains.'
