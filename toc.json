@@ -15,6 +15,11 @@
       "uri": "reference/Custody.yaml"
     },
         {
+      "type": "item",
+      "title": "Custodial Api",
+      "uri": "reference/CustodialApi.yaml"
+    },
+        {
       "type": "divider",
       "title": "How to articles"
     },
