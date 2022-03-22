@@ -844,7 +844,7 @@ paths:
       operationId: freezeApiKey
       summary: Freeze API Key
       tags:
-        - Service management
+        - Security
       responses:
         '204':
           description: OK
