@@ -6,6 +6,8 @@ info:
 
       <p>Custodial API is a set of operations, which allows you to work with managed blockchain addresses without having its private key.
       You can easily create new managed address and export its details - with private key as well - once required.</p>
+      <br/> <br/>
+       <p><b>Free users can manage only 10 addresses per API Key</b></p>
   contact: {}
   title: Custody
   version: 3.9.4
