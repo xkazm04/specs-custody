@@ -7,7 +7,7 @@ info:
       <p>Custodial API is a set of operatinos, which allows you to work with managed blockchain addresses without having its private key.
       You can easily create new managed address and export its details - with private key as well - once required.</p>
   contact: {}
-  title: Custodial API
+  title: Custody
   version: 3.9.4
   x-logo:
     url: 'https://tatum.io/images/logo.svg'
@@ -17,7 +17,7 @@ servers:
   - url: 'https://api-us-west1.tatum.io'
 tags:
   - description: ''
-    name: Managed address
+    name: Managed wallets
 paths:
   /v3/custodial/wallet:
     post:
@@ -203,7 +203,7 @@ paths:
         - X-Api-Key: []
       summary: Create managed address
       tags:
-        - Managed address
+        - Managed wallets
     get:
       description: |
         <h4>1 credit per API call.</h4><br/>
@@ -365,7 +365,7 @@ paths:
         - X-Api-Key: []
       summary: Get managed addresses
       tags:
-        - Managed address
+        - Managed wallets
   '/v3/custodial/wallet/{id}':
     get:
       description: |
@@ -547,7 +547,7 @@ paths:
         - X-Api-Key: []
       summary: Get managed address
       tags:
-        - Managed address
+        - Managed wallets
     delete:
       description: |
         <h4>1 credit per API call.</h4><br/>
@@ -680,7 +680,7 @@ paths:
         - X-Api-Key: []
       summary: Delete managed address
       tags:
-        - Managed address
+        - Managed wallets
 components:
   securitySchemes:
     X-Api-Key:
