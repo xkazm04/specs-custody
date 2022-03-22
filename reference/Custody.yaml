@@ -4,7 +4,7 @@ info:
         <h4><i><strong>Alpha feature</strong></i></h4>
         <p><i>Experimental feature still under development</p></i>
 
-      <p>Custodial API is a set of operatinos, which allows you to work with managed blockchain addresses without having its private key.
+      <p>Custodial API is a set of operations, which allows you to work with managed blockchain addresses without having its private key.
       You can easily create new managed address and export its details - with private key as well - once required.</p>
   contact: {}
   title: Custody
