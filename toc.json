@@ -11,13 +11,13 @@
     },
     {
       "type": "item",
-      "title": "Custody",
-      "uri": "reference/Custody.yaml"
+      "title": "Security",
+      "uri": "reference/Security.yaml"
     },
         {
       "type": "item",
-      "title": "Custodial API",
-      "uri": "reference/CustodialApi.yaml"
+      "title": "Custody",
+      "uri": "reference/Custody.yaml"
     },
         {
       "type": "divider",
