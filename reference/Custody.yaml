@@ -40,13 +40,13 @@ paths:
                   type: string
                   example: SOL
                   enum:
+                    - SOL
                     - BSC
                     - ETH
                     - KLAY
                     - ONE
                     - CELO
                     - MATIC
-                    - SOL
                     - LTC
                     - BTC
               required:
@@ -76,13 +76,13 @@ paths:
                     description: Blockchain of the address
                     example: SOL
                     enum:
+                      - SOL
                       - BSC
                       - ETH
                       - KLAY
                       - ONE
                       - CELO
-                      - MATIC
-                      - SOL
+                      - MATIC   
                       - LTC
                       - BTC
                   privateKey:
@@ -420,13 +420,13 @@ paths:
                       description: Blockchain of the address
                       example: SOL
                       enum:
+                        - SOL
                         - BSC
                         - ETH
                         - KLAY
                         - ONE
                         - CELO
                         - MATIC
-                        - SOL
                         - LTC
                         - BTC
                     privateKey:
