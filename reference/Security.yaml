@@ -16,7 +16,7 @@ tags:
   - description: ''
     name: Security
   - description: ''
-    name: Self service management
+    name: Service management
 paths:
   '/v3/kms/pending/{chain}':
     get:
@@ -313,7 +313,7 @@ paths:
       operationId: getCredits
       summary: List credit consumption for last month
       tags:
-        - Self service management
+        - Service management
       responses:
         '200':
           content:
@@ -355,7 +355,7 @@ paths:
       operationId: getExchangeRate
       summary: Get currenct exchange rate of the supported FIAT / crypto asset
       tags:
-        - Self service management
+        - Service management
       parameters:
         - description: FIAT or crypto asset
           in: path
@@ -780,7 +780,7 @@ paths:
       operationId: getVersion
       summary: Get API version
       tags:
-        - Self service management
+        - Service management
       responses:
         '200':
           content:
@@ -844,7 +844,7 @@ paths:
       operationId: freezeApiKey
       summary: Freeze API Key
       tags:
-        - Self service management
+        - Service management
       responses:
         '204':
           description: OK
@@ -872,7 +872,7 @@ paths:
       operationId: unfreezeApiKey
       summary: Unfreeze API Key
       tags:
-        - Self service management
+        - Service management
       responses:
         '204':
           description: OK
