@@ -1,6 +1,9 @@
 openapi: 3.1.0
 info:
   description:       
+        <h4><i><strong>Alpha feature</strong></i></h4>
+        <p><i>Experimental feature still under development</p></i>
+        
       <p>Custodial API is a set of operatinos, which allows you to work with managed blockchain addresses without having its private key.
       You can easily create new managed address and export its details - with private key as well - once required.</p>
   contact: {}
@@ -23,6 +26,7 @@ paths:
         <p>Create new managed address for a specific chain. If the address is mainnet or testnet one depends on the API Key - testnet API Key manages testnet addresses, mainnet API Key manages mainnet addresses.
         Result of the operation is address and walletId, which is used for identifying the wallet later on and/or exporting the private key if needed.
         </p>
+        <p><b>Free users can manage only 10 addresses per API Key</b></p>
       operationId: CustodialCreateWallet
       requestBody:
         content:
