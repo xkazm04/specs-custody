@@ -9,7 +9,7 @@ info:
       <br/> <br/>
        <p><b>Free users can manage only 10 addresses per API Key</b></p>
   contact: {}
-  title: Custody
+  title: Managed wallets
   version: 3.9.4
   x-logo:
     url: 'https://tatum.io/images/logo.svg'
@@ -19,7 +19,7 @@ servers:
   - url: 'https://api-us-west1.tatum.io'
 tags:
   - description: ''
-    name: Managed wallets
+    name: Wallet operations
 paths:
   /v3/custodial/wallet:
     post:
@@ -205,7 +205,7 @@ paths:
         - X-Api-Key: []
       summary: Create managed address
       tags:
-        - Managed wallets
+        - Wallet operations
     get:
       description: |
         <h4>1 credit per API call.</h4><br/>
@@ -367,7 +367,7 @@ paths:
         - X-Api-Key: []
       summary: Get managed addresses
       tags:
-        - Managed wallets
+        - Wallet operations
   '/v3/custodial/wallet/{id}':
     get:
       description: |
@@ -549,7 +549,7 @@ paths:
         - X-Api-Key: []
       summary: Get managed address
       tags:
-        - Managed wallets
+        - Wallet operations
     delete:
       description: |
         <h4>1 credit per API call.</h4><br/>
@@ -682,7 +682,7 @@ paths:
         - X-Api-Key: []
       summary: Delete managed address
       tags:
-        - Managed wallets
+        - Wallet operations
   /v3/custodial/transaction:
     post:
       description: |
@@ -920,7 +920,7 @@ paths:
         - X-Api-Key: []
       summary: Sign and transfer using managed address
       tags:
-        - Managed wallets
+        - Wallet operations
 components:
   securitySchemes:
     X-Api-Key:
