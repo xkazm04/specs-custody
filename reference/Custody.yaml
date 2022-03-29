@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   description:       
-        <h4><i><strong>Alpha feature</strong></i></h4>
+        <i><strong>Alpha feature</strong></i>
         <p><i>Experimental feature still under development</p></i>
 
       <p>Custodial API is a set of operations, which allows you to work with managed blockchain addresses without having its private key.
