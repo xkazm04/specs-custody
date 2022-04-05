@@ -708,7 +708,7 @@ paths:
         For external keys, which are not managed by Tatum, those could either sign the transaction before it's serialization, or could be passed to the API in it's raw form - this is OK only for keys, which could be exposed and there is no harm of loosing assets on them.<br/>
         <b>Fee payer key is used by default, doesn't have to be mentioned in the list of wallets used for signing.</b><br/><br/>
         <b>Examples of different transaction payloads.</b><br/><br/>
-        1. Send SOL from account <pre>HrJtQTy2RW9c6y41RvN8x3bEiD6Co74AuhER2MGCpa58</pre> to <pre>FZAS4mtPvswgVxbpc117SqfNgCDLTCtk5CoeAtt58FWU</pre>
+        1. Send SOL from account <b>HrJtQTy2RW9c6y41RvN8x3bEiD6Co74AuhER2MGCpa58</b> to <b>FZAS4mtPvswgVxbpc117SqfNgCDLTCtk5CoeAtt58FWU</b>
         <code>
         import { LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction } from '@solana/web3.js'
         const from = 'HrJtQTy2RW9c6y41RvN8x3bEiD6Co74AuhER2MGCpa58'
